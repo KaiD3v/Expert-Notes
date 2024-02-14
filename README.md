@@ -1,31 +1,71 @@
-# React + TypeScript + Vite
+## Access the web application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://expert-notes-theta.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Expert Notes
 
-## Expanding the ESLint configuration
+Expert Notes is a front-end application designed for text note-taking, where users can conveniently record audio notes that are automatically transcribed into text. This project aims to provide a seamless note-taking experience with additional features like audio-to-text conversion.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **ReactJS**: A JavaScript library for building user interfaces.
+- **TypeScript**: A statically typed superset of JavaScript that adds type annotations.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs.
+- **RadixUI**: A library of accessible, themeable, and composable components for building modern interfaces.
+- **Sonner**: An opinionated toast component for React .
+- **Lucide**: A set of icons for React projects.
+- **date-fns**: A modern JavaScript date utility library.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Expert-Notes
+To get started with Expert Notes, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/seu-usuario/expert-notes.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd expert-notes
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and visit `http://localhost:5173` to view the application.
+
+## Features
+
+- **Text Note-Taking**: Users can create, edit, and delete text notes.
+- **Audio-to-Text Conversion**: Audio recordings are automatically transcribed into text notes.
+- **Responsive Design**: The application is responsive and works well across various devices and screen sizes.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to Expert Notes, please follow these guidelines:
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeatureName`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeatureName`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
